@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@font-face {
+  font-family: Orbitron;
+}
+
 h1 {
 	text-align: center;
-	font: 48px Tisa;
+	font: 32px Tisa;
 }
 
 h2 {
@@ -13,21 +19,31 @@ p {
 	font: 24px Tisa;
 }
 
-img {
-	float: right;
-	margin: 10px;
-	border: 2px solid black;
-}
-
 table {
-	border: 2px solid black;
 	font-size: 28px;
+	vertical-align: text-top;
 }
 
 td {
 	width: 200px;
 	padding: 10px;
 	text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 .center {
@@ -39,10 +55,105 @@ td {
 	margin-top: 20%;
 }
 
+.plass10 {
+	margin-top: 100px;
+}
+
 .list {
 	margin: 0;
 	text-align: center;
 }
+
+.chabo-menu {
+	position: absolute;
+  	top: 0px;
+	background-color: black;
+	opacity: 0.4;
+	width: 100%;
+	min-width: 900px;
+	height: 70px;
+	left:0px;
+}
+
+.chabo-menu h1 {
+	font: 42px Orbitron;
+  	color: white;
+  	opacity: 1.0;
+  	text-align: left;
+  	position: absolute;
+  	left: 10px;
+  	width: 200px;
+  	top: -32%;
+}
+
+.chabo-menu table {
+	position: absolute;
+  	right: 0px;
+  	top: 6%;
+  	width: 700px;
+}
+.chabo-menu a {
+  color: white;
+  opacity: 1.0;
+  font: 32px Arial;
+}
+
+.chabo-text {
+	position: absolute;
+	left:80px;
+	top:200px;
+}
+
+.chabo-text h1{
+	font: 42px Orbitron;
+  	color: white;
+  	opacity: 0.9;
+  	text-align: left;
+}
+
+.chabo-finn {
+	position: absolute;
+	left:80px;
+	top:500px;
+	border: 2px white solid;
+	padding: 4px;
+}
+
+.chabo-finn a{
+	font: 18px Arial;
+  	color: white;
+  	opacity: 0.9;
+  	text-align: center;
+}
+
+.chabo-infographic {
+	background-color: white;
+	opacity: 1.0;
+	position: absolute;
+	left:0px;
+	top:800px;
+	height: 500px;
+	width: 100%;
+}
+.chabo-infographic h1{
+ 	font: 30px Arial;
+ 	font-weight: bold;
+ 	position: absolute;
+ 	left:80px;
+ 	padding-top: 20px;
+}
+
+.chabo-infographic img{
+ 	size:20%;
+ 	position: relative;
+ 	top:80px;
+ 	width:300px;
+ 	height:300px;
+ 	margin-left: auto;
+  	margin-right: auto;
+ 	padding: 40px;
+ 	display: block;
+ }
 
 ul {
 	list-style-type: none;
@@ -54,6 +165,7 @@ ul {
 li {
 	margin: 0 0 10px 0;
 }
+
 
 #container-content {
 	overflow: hidden;
@@ -74,3 +186,14 @@ li {
 #latlong {
 	margin: 10px 0 0 0;
 }
+
+
+
+
+
+
+
+
+
+
+
