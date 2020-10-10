@@ -4,6 +4,13 @@
 	font-family: Orbitron;
 }
 
+body {
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: left top;
+		background-size: 1920px, 1080px;
+	}
+
 h1 {
 	text-align: center;
 	font: 32px Arial;
