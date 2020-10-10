@@ -196,7 +196,7 @@ li {
 }
 
 
-#content {
+.content {
 	float: left;
 	vertical-align: top;
 	width: auto;
