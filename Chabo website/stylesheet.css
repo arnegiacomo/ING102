@@ -6,17 +6,17 @@
 
 h1 {
 	text-align: center;
-	font: 32px Tisa;
+	font: 32px Arial;
 }
 
 h2 {
 	text-align: center;
-	font: 32px Tisa;
+	font: 32px Arial;
 }
 
 p {
 	text-align: center;
-	font: 24px Tisa;
+	font: 24px Arial;
 }
 
 table {
@@ -154,7 +154,7 @@ a:active {
 	line-height: 1.5;
 	position: absolute;
 	margin: 80px;
-	margin-right: 80px;
+	right: 80px;
 	text-align: left;
 }
 
