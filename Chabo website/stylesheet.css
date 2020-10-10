@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 @font-face {
-  font-family: Orbitron;
+	font-family: Orbitron;
 }
 
 h1 {
@@ -31,19 +31,19 @@ td {
 }
 
 a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 a:visited {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 a:active {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .center {
@@ -62,112 +62,115 @@ a:active {
 .list {
 	margin: 0;
 	text-align: center;
+	font-size: 25px;
+	font-weight: bold
 }
 
 .chabo-menu {
 	position: absolute;
-  	top: 0px;
+	top: 0px;
 	background-color: black;
 	opacity: 0.4;
 	width: 100%;
-	min-width:700px;
+	min-width: 700px;
 	height: 70px;
-	left:0px;
+	left: 0px;
 }
 
 .chabo-menu h1 {
 	font: 42px Orbitron;
-  	color: white;
-  	opacity: 1.0;
-  	text-align: left;
-  	position: absolute;
-  	left: 10px;
-  	width: 200px;
-  	top: -32%;
+	color: white;
+	opacity: 1.0;
+	text-align: left;
+	position: absolute;
+	left: 10px;
+	width: 200px;
+	top: -32%;
 }
 
 .chabo-menu table {
 	position: absolute;
-  	right: 0px;
+	right: 0px;
 	left: 300px;
-  	top: 6%;
-	min-width:700px;
+	top: 6%;
+	min-width: 700px;
 }
+
 .chabo-menu a {
-  color: white;
-  opacity: 1.0;
-  font: 32px Arial;
+	color: white;
+	opacity: 1.0;
+	font: 32px Arial;
 }
 
 .chabo-text {
 	position: absolute;
-	left:80px;
-	top:200px;
+	left: 80px;
+	top: 200px;
 }
 
-.chabo-text h1{
+.chabo-text h1 {
 	font: 42px Orbitron;
-  	color: black;
-  	opacity: 0.4;
-  	text-align: left;
+	color: black;
+	opacity: 0.4;
+	text-align: left;
 }
 
 .chabo-finn {
 	position: absolute;
-	left:80px;
-	top:500px;
+	left: 80px;
+	top: 500px;
 	border: 3px white solid;
 	padding: 5px;
 }
 
-.chabo-finn a{
+.chabo-finn a {
 	font: 20px Arial;
-  	color: white;
-  	opacity: 0.9;
-  	text-align: center;
+	color: white;
+	opacity: 0.9;
+	text-align: center;
 }
 
 .chabo-info {
 	background-color: white;
 	opacity: 1.0;
 	position: relative;
-	left:-1%;
-	top:800px;
+	left: -1%;
+	top: 800px;
 	height: 600px;
 	width: 110%;
 }
-.chabo-info h1{
- 	font: 32px Arial;
- 	font-weight: bold;
- 	position: absolute;
- 	margin: 80px;
- 	margin-top: 40px;
+
+.chabo-info h1 {
+	font: 32px Arial;
+	font-weight: bold;
+	position: absolute;
+	margin: 80px;
+	margin-top: 40px;
 }
 
-.chabo-info p{
- 	font: 20px Arial;
- 	color: dimgray;
- 	line-height: 1.5;
- 	position: absolute;
- 	margin: 80px;
- 	margin-right: 80px;
- 	text-align: left;
+.chabo-info p {
+	font: 20px Arial;
+	color: dimgray;
+	line-height: 1.5;
+	position: absolute;
+	margin: 80px;
+	margin-right: 80px;
+	text-align: left;
 }
 
-.chabo-info img{
- 	position: absolute;
- 	margin-top: 40px;
- 	width:300px;
- 	height:300px;
- 	padding: 80px;
- }
+.chabo-info img {
+	position: absolute;
+	margin-top: 40px;
+	width: 300px;
+	height: 300px;
+	padding: 80px;
+}
 
 
 ul {
 	list-style-type: none;
 	padding: 0 0 0 0;
 	margin-top: 10px;
-
 }
 
 li {
@@ -176,33 +179,25 @@ li {
 
 
 #container-content {
+	font-family: Arial !important;
 	overflow: hidden;
-	border: 2px black solid;
+	/*border: 2px black solid;*/
 	justify-content: center;
 	align-items: center;
 	display: inline-block;
 	background-color: white;
-	}
+}
 
 
 #content {
 	float: left;
 	vertical-align: top;
 	width: auto;
-	padding: 50px 0px 50px 0px;
+	padding: 25px 0px 50px 0px;
 }
 
 #latlong {
 	margin: 10px 0 0 0;
 }
 
-
-
-
-
-
-
-
-
-
-
+.list h2 {}
