@@ -173,7 +173,6 @@ a:active {
 	padding: 80px;
 }
 
-
 ul {
 	list-style-type: none;
 	padding: 0 0 0 0;
@@ -183,7 +182,6 @@ ul {
 li {
 	margin: 0 0 10px 0;
 }
-
 
 #container-content {
 	font-family: Arial !important;
@@ -196,7 +194,6 @@ li {
 	border-radius: 25px;
 }
 
-
 .content {
 	float: left;
 	vertical-align: top;
@@ -207,5 +204,3 @@ li {
 #latlong {
 	margin: 10px 0 0 0;
 }
-
-.list h2 {}

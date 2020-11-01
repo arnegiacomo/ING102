@@ -28,8 +28,6 @@
 	<div class="plass10"></div>
 
 	<div style="text-align: center;">
-
-
 		<div id="container-content">
 			<h1 style="padding-top: 25px; margin-bottom:15px; font-size: 40px; font-weight: bold;">Ladekalkulator</h1>
 
@@ -40,18 +38,15 @@
 					<option value=150>150 kW</option>
 					<option value=250>250 kW</option>
 				</select>
-				<input type="submit" value="Beregn ladetid" onclick="beregn(); loadTableData();"
-					style="font-size: 20px;">
+				<input type="submit" value="Beregn ladetid" onclick="loadTableData();" style="font-size: 20px;">
 			</div>
-
 
 			<div class="content" style="padding-left: 150px; padding-right:75px;">
 				<img alt="" id="graf" src="" style="width: 500px;">
 			</div>
 
-
 			<div class="content" style="padding-left: 75px; padding-right:150px">
-				<table id="table" hidden="true" style="font-size: 20px; width: 450px; height: 450px;">
+				<table id="ladeTable" hidden="true" style="font-size: 20px; width: 450px; height: 450px;">
 					<thead>
 						<tr>
 							<th></th>
@@ -68,17 +63,11 @@
 	</div>
 
 	<script>
-		function beregn() {
-
-			//console.log(ladekapasitet);
-		}
-
 		function loadTableData() {
-
 			var ladekapasitet = document.getElementById("ladekapasitet").value;
 			document.getElementById("graf").src = "../" + ladekapasitet + "kW.png";
 
-			var tableRef = document.getElementById('table');
+			var tableRef = document.getElementById('ladeTable');
 			var tbodyRef = tableRef.getElementsByTagName('tbody')[0];
 
 			tableRef.hidden = false;
@@ -97,7 +86,7 @@
 					tbodyRef.appendChild(newRow);
 
 					var trIndex = Array.prototype.indexOf.call(td.parentNode.children, td);
-					var corresponding_th = document.querySelector('#table th:nth-child(' + (trIndex + 1) + ')');
+					var corresponding_th = document.querySelector('#ladeTable th:nth-child(' + (trIndex + 1) + ')');
 					thValue = corresponding_th.getAttribute("value");
 
 					var time = ((thValue / ladekapasitet) / 100 * j);
@@ -107,18 +96,10 @@
 
 					td.innerHTML = (hours != 0) ? hours + " h " + minutes + " min" : minutes + " min";
 
-					console.log("thValue: " + thValue + "; time: " + time + "; ladekapasitet: " + ladekapasitet +
-						"; percentage: " + j);
-
 				}
-
-
 			}
-
-
 		}
 	</script>
-
 </body>
 
 </html>
