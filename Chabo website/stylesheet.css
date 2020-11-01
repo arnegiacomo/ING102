@@ -5,11 +5,11 @@
 }
 
 body {
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: left top;
-		background-size: 1920px, 1080px;
-	}
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	background-size: 1920px, 1080px;
+}
 
 h1 {
 	text-align: center;
@@ -193,6 +193,7 @@ li {
 	align-items: center;
 	display: inline-block;
 	background-color: white;
+	border-radius: 25px;
 }
 
 
